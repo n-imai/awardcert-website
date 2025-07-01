@@ -1,0 +1,268 @@
+/* お問い合わせページ専用スタイル */
+
+.contact-main {
+    padding: 2rem 0;
+    background: #f8f9fa;
+    min-height: 80vh;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.contact-description {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.info-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.info-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-card h3 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.info-card p {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-note {
+    background: #e3f2fd;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #1976d2;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    border-left: 4px solid #2196f3;
+}
+
+.tally-form-placeholder {
+    background: #f8f9fa;
+    border: 2px dashed #bdc3c7;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-content h3 {
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.placeholder-content p {
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+
+.form-setup-steps {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.form-setup-steps h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.form-setup-steps ol {
+    color: #2c3e50;
+    padding-left: 1.5rem;
+}
+
+.form-setup-steps li {
+    margin-bottom: 0.5rem;
+}
+
+.form-setup-steps a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.form-setup-steps a:hover {
+    text-decoration: underline;
+}
+
+.sample-form {
+    background: #fff3cd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    text-align: left;
+    border-left: 4px solid #ffc107;
+}
+
+.sample-form h4 {
+    color: #856404;
+    margin-bottom: 1rem;
+}
+
+.sample-form ul {
+    color: #856404;
+    padding-left: 1.5rem;
+}
+
+.sample-form li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-footer {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.response-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.response-info h3 {
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.response-info p {
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+.back-to-app {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 2px solid #f8f9fa;
+}
+
+/* Tallyフォーム用スタイル（実際のフォーム埋め込み時） */
+.tally-form-container {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tally-form-container iframe {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 1024px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .contact-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-header h1 {
+        font-size: 2rem;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-container {
+        padding: 1.5rem;
+    }
+    
+    .tally-form-placeholder {
+        padding: 1.5rem;
+        min-height: 300px;
+    }
+    
+    .contact-footer {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-main {
+        padding: 1rem 0;
+    }
+    
+    .contact-header {
+        margin: 0 1rem 2rem 1rem;
+        padding: 1.5rem;
+    }
+    
+    .contact-content {
+        padding: 0 1rem;
+    }
+    
+    .contact-footer {
+        margin: 0 1rem;
+    }
+} 
