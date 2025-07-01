@@ -95,81 +95,21 @@
     border-left: 4px solid #2196f3;
 }
 
-.tally-form-placeholder {
-    background: #f8f9fa;
-    border: 2px dashed #bdc3c7;
-    border-radius: 12px;
-    padding: 2rem;
-    text-align: center;
-    min-height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.placeholder-content h3 {
-    color: #3498db;
-    margin-bottom: 1rem;
-}
-
-.placeholder-content p {
-    color: #7f8c8d;
-    margin-bottom: 2rem;
-}
-
-.form-setup-steps {
+.tally-form-container {
     background: white;
-    padding: 1.5rem;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tally-form-container iframe {
     border-radius: 8px;
-    margin: 1.5rem 0;
-    text-align: left;
+    width: 100% !important;
+    min-height: 600px;
 }
 
-.form-setup-steps h4 {
-    color: #2c3e50;
-    margin-bottom: 1rem;
-}
 
-.form-setup-steps ol {
-    color: #2c3e50;
-    padding-left: 1.5rem;
-}
-
-.form-setup-steps li {
-    margin-bottom: 0.5rem;
-}
-
-.form-setup-steps a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-.form-setup-steps a:hover {
-    text-decoration: underline;
-}
-
-.sample-form {
-    background: #fff3cd;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin-top: 1.5rem;
-    text-align: left;
-    border-left: 4px solid #ffc107;
-}
-
-.sample-form h4 {
-    color: #856404;
-    margin-bottom: 1rem;
-}
-
-.sample-form ul {
-    color: #856404;
-    padding-left: 1.5rem;
-}
-
-.sample-form li {
-    margin-bottom: 0.5rem;
-}
 
 .contact-footer {
     background: white;
@@ -199,19 +139,7 @@
     border-top: 2px solid #f8f9fa;
 }
 
-/* Tallyフォーム用スタイル（実際のフォーム埋め込み時） */
-.tally-form-container {
-    background: white;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
 
-.tally-form-container iframe {
-    width: 100%;
-    border: none;
-    border-radius: 12px;
-}
 
 /* レスポンシブデザイン */
 @media (max-width: 1024px) {
@@ -238,9 +166,14 @@
         padding: 1.5rem;
     }
     
-    .tally-form-placeholder {
-        padding: 1.5rem;
-        min-height: 300px;
+    .tally-form-container {
+        padding: 0.5rem;
+        margin: 1rem -1rem 2rem -1rem;
+        border-radius: 0;
+    }
+    
+    .tally-form-container iframe {
+        border-radius: 0;
     }
     
     .contact-footer {

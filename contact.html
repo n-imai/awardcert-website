@@ -65,37 +65,25 @@
                 <div class="form-container">
                     <h2>お問い合わせフォーム</h2>
                     <p class="form-note">
-                        ※ このフォームはTallyで作成されています。<br>
-                        実際のフォームを埋め込む場合は、Tallyで作成したフォームのコードに置き換えてください。
+                        ※ このフォームからお送りいただいた内容は、開発者に直接届きます。<br>
+                        お気軽にご質問・ご要望をお聞かせください。
                     </p>
                     
-                    <!-- Tallyフォーム埋め込みエリア -->
-                    <div class="tally-form-placeholder">
-                        <div class="placeholder-content">
-                            <h3>📝 Tallyフォーム埋め込みエリア</h3>
-                            <p>ここにTallyで作成したお問い合わせフォームを埋め込みます。</p>
-                            
-                            <div class="form-setup-steps">
-                                <h4>設定手順：</h4>
-                                <ol>
-                                    <li><a href="https://tally.so" target="_blank" rel="noopener">Tally.so</a>でアカウント作成</li>
-                                    <li>お問い合わせフォームを作成</li>
-                                    <li>埋め込みコードを取得</li>
-                                    <li>このエリアに埋め込みコードを貼り付け</li>
-                                </ol>
-                            </div>
-                            
-                            <div class="sample-form">
-                                <h4>フォーム項目例：</h4>
-                                <ul>
-                                    <li>お名前（必須）</li>
-                                    <li>メールアドレス（必須）</li>
-                                    <li>お問い合わせ種別（選択）</li>
-                                    <li>使用デバイス（iOS/Android）</li>
-                                    <li>お問い合わせ内容（必須）</li>
-                                </ul>
-                            </div>
-                        </div>
+                    <!-- Tallyフォーム埋め込み -->
+                    <div class="tally-form-container">
+                        <iframe 
+                            data-tally-src="https://tally.so/embed/wbMvo1?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+                            loading="lazy" 
+                            width="100%" 
+                            height="600" 
+                            frameborder="0" 
+                            marginheight="0" 
+                            marginwidth="0" 
+                            title="表彰状メーカーお問い合わせフォーム">
+                        </iframe>
+                        <script>
+                            var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.head.appendChild(s);}
+                        </script>
                     </div>
                     
                     <!-- 実際のTallyフォーム埋め込み例（コメントアウト）
