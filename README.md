@@ -1,2 +1,2 @@
-# awardcert-contact
-表彰状メーカー お問い合わせページ
+# 表彰状メーカー お問い合わせページ
+このリポジトリは awardcert.hanimaro.jp/contact 用のお問い合わせページです。
