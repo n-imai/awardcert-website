@@ -187,15 +187,15 @@
     }
     
     .contact-header {
-        margin: 0 1rem 2rem 1rem;
+        margin: 0 1.5rem 2rem 1.5rem;
         padding: 1.5rem;
     }
     
     .contact-content {
-        padding: 0 1rem;
+        padding: 0 1.5rem;
     }
     
     .contact-footer {
-        margin: 0 1rem;
+        margin: 0 1.5rem;
     }
 } 
