@@ -1,7 +1,19 @@
-
 {
   "rewrites": [
     { "source": "/terms", "destination": "/public/terms.html" },
     { "source": "/privacy", "destination": "/public/privacy.html" }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "hannymarron.com"
+        }
+      ],
+      "destination": "https://hannymarron.jp/$1",
+      "permanent": true
+    }
   ]
 }
