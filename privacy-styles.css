@@ -1,137 +1,126 @@
 /* プライバシーポリシーページ専用スタイル */
 
-.nav-logo a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.privacy-main {
-    padding: 2rem 0;
-    background: white;
-    min-height: 80vh;
-}
-
-.privacy-header {
-    text-align: center;
-    margin-bottom: 3rem;
-    padding: 2rem 0;
-    border-bottom: 2px solid #f8f9fa;
-}
-
-.privacy-header h1 {
-    font-size: 2.5rem;
-    color: #2c3e50;
-    margin-bottom: 1rem;
-}
-
-.last-updated {
-    color: #7f8c8d;
-    font-size: 1rem;
-    font-style: italic;
-}
-
+/* プライバシーコンテンツ */
 .privacy-content {
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.8;
+    background: var(--background-primary);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    margin-bottom: var(--spacing-xl);
 }
 
 .privacy-section {
-    margin-bottom: 3rem;
-    padding: 0 1rem;
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--background-tertiary);
+}
+
+.privacy-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .privacy-section h2 {
-    color: #3498db;
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #3498db;
+    color: var(--text-primary);
+    font-size: var(--font-xl);
+    margin-bottom: var(--spacing-sm);
+    padding-left: var(--spacing-sm);
+    border-left: 4px solid var(--primary-color);
+    line-height: 1.4;
 }
 
 .privacy-section h3 {
-    color: #2c3e50;
-    font-size: 1.3rem;
-    margin: 1.5rem 0 1rem 0;
-    font-weight: 600;
+    color: var(--text-primary);
+    font-size: var(--font-lg);
+    margin-bottom: var(--spacing-sm);
+    margin-top: var(--spacing-md);
 }
 
 .privacy-section h4 {
-    color: #34495e;
-    font-size: 1.1rem;
-    margin: 1rem 0 0.5rem 0;
+    color: var(--text-primary);
+    font-size: var(--font-base);
+    margin-bottom: var(--spacing-xs);
+    margin-top: var(--spacing-sm);
     font-weight: 600;
 }
 
 .privacy-section p {
-    margin-bottom: 1rem;
-    color: #2c3e50;
+    color: var(--text-primary);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-sm);
 }
 
 .privacy-section ul {
-    margin: 1rem 0 1.5rem 1.5rem;
-    color: #2c3e50;
+    margin: var(--spacing-sm) 0;
+    padding-left: var(--spacing-lg);
 }
 
 .privacy-section li {
-    margin-bottom: 0.5rem;
-    line-height: 1.6;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.7;
 }
 
 .privacy-section a {
-    color: #3498db;
+    color: var(--primary-color);
     text-decoration: none;
-    transition: color 0.3s ease;
+    font-weight: 500;
 }
 
 .privacy-section a:hover {
-    color: #2980b9;
     text-decoration: underline;
 }
 
 .third-party-service {
-    background: #f8f9fa;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin: 1rem 0;
-    border-left: 4px solid #3498db;
+    background: var(--background-secondary);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin: var(--spacing-md) 0;
 }
 
 .third-party-service h4 {
-    color: #3498db;
-    margin-top: 0;
-}
-
-.back-to-app {
-    text-align: center;
-    margin: 3rem 0;
-    padding: 2rem 0;
-    border-top: 2px solid #f8f9fa;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-xs);
 }
 
 /* レスポンシブデザイン */
-@media (max-width: 768px) {
-    .privacy-header h1 {
-        font-size: 2rem;
+@media (max-width: 1024px) {
+    .privacy-content {
+        padding: var(--spacing-lg);
     }
-    
-    .privacy-section {
-        padding: 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .privacy-content {
+        padding: var(--spacing-md);
     }
     
     .privacy-section h2 {
-        font-size: 1.5rem;
+        font-size: var(--font-lg);
     }
-    
-    .privacy-section h3 {
-        font-size: 1.2rem;
-    }
-    
+}
+
+@media (max-width: 480px) {
     .privacy-content {
-        padding: 0 1rem;
+        padding: var(--spacing-sm);
+    }
+    
+    .privacy-section {
+        margin-bottom: var(--spacing-md);
+        padding-bottom: var(--spacing-md);
+    }
+    
+    .privacy-section h2 {
+        font-size: var(--font-base);
+        padding-left: var(--spacing-xs);
+    }
+    
+    .privacy-section ul {
+        padding-left: var(--spacing-md);
     }
     
     .third-party-service {
-        padding: 1rem;
+        padding: var(--spacing-sm);
     }
 } 
