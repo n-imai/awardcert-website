@@ -34,6 +34,18 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NG5MN5K8HM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-NG5MN5K8HM', {
+            page_title: '表彰状メーカー - トップページ',
+            page_location: window.location.href
+        });
+    </script>
+    
     <!-- 構造化データ（JSON-LD） -->
     <script type="application/ld+json">
     {
@@ -138,8 +150,8 @@
                         プロフェッショナルな表彰状が完成します。
                     </p>
                     <div class="hero-buttons">
-                        <a href="#download" class="btn btn-primary">今すぐダウンロード</a>
-                        <a href="#features" class="btn btn-secondary">詳しく見る</a>
+                        <a href="#download" class="btn btn-primary" onclick="gtag('event', 'click', { event_category: 'engagement', event_label: 'hero_download_button' })">今すぐダウンロード</a>
+                        <a href="#features" class="btn btn-secondary" onclick="gtag('event', 'click', { event_category: 'engagement', event_label: 'hero_features_button' })">詳しく見る</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -231,14 +243,14 @@
                     お使いのデバイスに応じてダウンロードしてください。
                 </p>
                 <div class="download-buttons">
-                    <a href="#" class="download-btn ios-btn">
+                    <a href="#" class="download-btn ios-btn" onclick="gtag('event', 'click', { event_category: 'download', event_label: 'app_store_button' })">
                         <div class="btn-icon">📱</div>
                         <div class="btn-text">
                             <span class="btn-small">Download on the</span>
                             <span class="btn-large">App Store</span>
                         </div>
                     </a>
-                    <a href="#" class="download-btn android-btn">
+                    <a href="#" class="download-btn android-btn" onclick="gtag('event', 'click', { event_category: 'download', event_label: 'google_play_button' })">
                         <div class="btn-icon">🤖</div>
                         <div class="btn-text">
                             <span class="btn-small">GET IT ON</span>

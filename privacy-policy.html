@@ -34,6 +34,18 @@
     <link rel="stylesheet" href="privacy-styles.css">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NG5MN5K8HM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-NG5MN5K8HM', {
+            page_title: 'プライバシーポリシー - 表彰状メーカー',
+            page_location: window.location.href
+        });
+    </script>
+    
     <!-- 構造化データ（JSON-LD） -->
     <script type="application/ld+json">
     {
@@ -154,6 +166,15 @@
                         <h4>Google Analytics for Firebase</h4>
                         <ul>
                             <li>アプリ使用状況の分析のため</li>
+                            <li>プライバシーポリシー：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="third-party-service">
+                        <h4>Google Analytics 4</h4>
+                        <ul>
+                            <li>Webサイトの使用状況分析のため</li>
+                            <li>匿名化された情報のみ収集</li>
                             <li>プライバシーポリシー：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
                         </ul>
                     </div>
