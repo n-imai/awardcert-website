@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# XMLサイトマップの場所を指定
+Sitemap: https://awardcert.honeymarron.com/sitemap.xml
+
+# 不要なファイルをクロール対象から除外
+Disallow: /images/
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /README.md
+Disallow: /vercel.json
+
+# 重要なページは明示的に許可
+Allow: /index.html
+Allow: /contact.html
+Allow: /privacy-policy.html
+Allow: /terms-of-service.html
+Allow: /favicon.svg
+
+# レスポンシブ画像は許可
+Allow: /images/responsive/ 
