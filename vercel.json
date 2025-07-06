@@ -9,10 +9,10 @@
       "has": [
         {
           "type": "host",
-          "value": "hannymarron.com"
+          "value": "honeymarron.com"
         }
       ],
-      "destination": "https://hannymarron.jp/$1",
+      "destination": "https://awardcert.honeymarron.com/$1",
       "permanent": true
     }
   ]
