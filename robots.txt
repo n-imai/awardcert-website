@@ -19,4 +19,7 @@ Allow: /terms-of-service.html
 Allow: /favicon.svg
 
 # レスポンシブ画像は許可
-Allow: /images/responsive/ 
+Allow: /images/responsive/
+
+# 広告配信システム用ファイルを許可
+Allow: /app-ads.txt 

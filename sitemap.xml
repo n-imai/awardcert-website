@@ -7,7 +7,7 @@
     <!-- トップページ -->
     <url>
         <loc>https://awardcert.honeymarron.com/</loc>
-        <lastmod>2025-07-05</lastmod>
+        <lastmod>2025-07-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -15,7 +15,7 @@
     <!-- お問い合わせページ -->
     <url>
         <loc>https://awardcert.honeymarron.com/contact.html</loc>
-        <lastmod>2025-07-05</lastmod>
+        <lastmod>2025-07-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -23,7 +23,7 @@
     <!-- プライバシーポリシー -->
     <url>
         <loc>https://awardcert.honeymarron.com/privacy-policy.html</loc>
-        <lastmod>2025-07-05</lastmod>
+        <lastmod>2025-07-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
@@ -31,7 +31,7 @@
     <!-- 利用規約 -->
     <url>
         <loc>https://awardcert.honeymarron.com/terms-of-service.html</loc>
-        <lastmod>2025-07-05</lastmod>
+        <lastmod>2025-07-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
