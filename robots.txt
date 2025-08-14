@@ -23,3 +23,7 @@ Allow: /images/responsive/
 
 # 広告配信システム用ファイルを許可
 Allow: /app-ads.txt 
+
+# Google ads.txt 専用クローラーを許可
+User-agent: Google-adstxt
+Disallow:
