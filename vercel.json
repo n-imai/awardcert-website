@@ -1,10 +1,19 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/terms", "destination": "/terms-of-service.html" },
-    { "source": "/privacy", "destination": "/privacy-policy.html" }
+    
   ],
   "redirects": [
+    {
+      "source": "/privacy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
     {
       "source": "/index.html",
       "destination": "/",

@@ -4,10 +4,7 @@ Allow: /
 # XMLサイトマップの場所を指定
 Sitemap: https://awardcert.honeymarron.com/sitemap.xml
 
-# 不要なファイルをクロール対象から除外
-Disallow: /images/
-Disallow: /*.css$
-Disallow: /*.js$
+# 不要なファイルのみ除外（ページレンダリングに必要なCSS/JSや画像はブロックしない）
 Disallow: /README.md
 Disallow: /vercel.json
 
@@ -18,8 +15,8 @@ Allow: /privacy-policy.html
 Allow: /terms-of-service.html
 Allow: /favicon.svg
 
-# レスポンシブ画像は許可
-Allow: /images/responsive/
+# 画像は許可（省略可だが明示）
+Allow: /images/
 
 # 広告配信システム用ファイルを許可
 Allow: /app-ads.txt 
