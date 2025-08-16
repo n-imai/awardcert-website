@@ -14,24 +14,24 @@
     
     <!-- お問い合わせページ -->
     <url>
-        <loc>https://awardcert.honeymarron.com/contact.html</loc>
-        <lastmod>2025-07-13</lastmod>
+        <loc>https://awardcert.honeymarron.com/contact</loc>
+        <lastmod>2025-08-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- プライバシーポリシー -->
     <url>
-        <loc>https://awardcert.honeymarron.com/privacy-policy.html</loc>
-        <lastmod>2025-07-13</lastmod>
+        <loc>https://awardcert.honeymarron.com/privacy-policy</loc>
+        <lastmod>2025-08-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <!-- 利用規約 -->
     <url>
-        <loc>https://awardcert.honeymarron.com/terms-of-service.html</loc>
-        <lastmod>2025-07-13</lastmod>
+        <loc>https://awardcert.honeymarron.com/terms-of-service</loc>
+        <lastmod>2025-08-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
