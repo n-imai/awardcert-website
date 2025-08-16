@@ -42,6 +42,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
     
     <!-- Google Analytics 4 -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NG5MN5K8HM"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -177,7 +179,7 @@
                                         images/responsive/ios-screenshot-1-home-1024w.png 1024w,
                                         images/responsive/ios-screenshot-1-home-1290w.png 1290w"
                                 sizes="(max-width: 768px) 280px, (max-width: 1024px) 350px, 400px"
-                                src="images/responsive/ios-screenshot-1-home-768w.png" 
+                                src="images/responsive/ios-screenshot-1-home-768w.png" fetchpriority="high" decoding="async"
                                 alt="表彰状クリエイターアプリのホーム画面" 
                                 class="app-screenshot">
                         </picture>
