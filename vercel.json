@@ -10,6 +10,11 @@
       "permanent": true
     },
     {
+      "source": "/en/privacy",
+      "destination": "/en/privacy-policy",
+      "permanent": true
+    },
+    {
       "source": "/en/privacy-policy.html",
       "destination": "/en/privacy-policy",
       "permanent": true
@@ -27,6 +32,11 @@
     {
       "source": "/terms",
       "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/en/terms",
+      "destination": "/en/terms-of-service",
       "permanent": true
     },
     {
