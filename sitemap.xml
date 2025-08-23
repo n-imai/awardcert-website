@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
     <!-- トップページ -->
     <url>
         <loc>https://awardcert.honeymarron.com/</loc>
-        <lastmod>2025-07-13</lastmod>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://awardcert.honeymarron.com/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://awardcert.honeymarron.com/en/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://awardcert.honeymarron.com/" />
+        <lastmod>2025-08-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Top (en) -->
     <url>
         <loc>https://awardcert.honeymarron.com/en/</loc>
-        <lastmod>2025-08-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://awardcert.honeymarron.com/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://awardcert.honeymarron.com/en/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://awardcert.honeymarron.com/" />
+        <lastmod>2025-08-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -22,14 +29,20 @@
     <!-- お問い合わせページ (ja) -->
     <url>
         <loc>https://awardcert.honeymarron.com/contact</loc>
-        <lastmod>2025-08-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://awardcert.honeymarron.com/contact" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://awardcert.honeymarron.com/en/contact" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://awardcert.honeymarron.com/contact" />
+        <lastmod>2025-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <!-- Contact (en) -->
     <url>
         <loc>https://awardcert.honeymarron.com/en/contact</loc>
-        <lastmod>2025-08-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://awardcert.honeymarron.com/contact" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://awardcert.honeymarron.com/en/contact" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://awardcert.honeymarron.com/contact" />
+        <lastmod>2025-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -37,14 +50,20 @@
     <!-- プライバシーポリシー (ja) -->
     <url>
         <loc>https://awardcert.honeymarron.com/privacy-policy</loc>
-        <lastmod>2025-08-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://awardcert.honeymarron.com/privacy-policy" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://awardcert.honeymarron.com/en/privacy-policy" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://awardcert.honeymarron.com/privacy-policy" />
+        <lastmod>2025-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <!-- Privacy Policy (en) -->
     <url>
         <loc>https://awardcert.honeymarron.com/en/privacy-policy</loc>
-        <lastmod>2025-08-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://awardcert.honeymarron.com/privacy-policy" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://awardcert.honeymarron.com/en/privacy-policy" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://awardcert.honeymarron.com/privacy-policy" />
+        <lastmod>2025-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -52,14 +71,20 @@
     <!-- 利用規約 (ja) -->
     <url>
         <loc>https://awardcert.honeymarron.com/terms-of-service</loc>
-        <lastmod>2025-08-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://awardcert.honeymarron.com/terms-of-service" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://awardcert.honeymarron.com/en/terms-of-service" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://awardcert.honeymarron.com/terms-of-service" />
+        <lastmod>2025-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <!-- Terms (en) -->
     <url>
         <loc>https://awardcert.honeymarron.com/en/terms-of-service</loc>
-        <lastmod>2025-08-16</lastmod>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://awardcert.honeymarron.com/terms-of-service" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://awardcert.honeymarron.com/en/terms-of-service" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://awardcert.honeymarron.com/terms-of-service" />
+        <lastmod>2025-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
