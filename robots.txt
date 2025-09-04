@@ -8,11 +8,7 @@ Sitemap: https://awardcert.honeymarron.com/sitemap.xml
 Disallow: /README.md
 Disallow: /vercel.json
 
-# 重要なページは明示的に許可
-Allow: /index.html
-Allow: /contact.html
-Allow: /privacy-policy.html
-Allow: /terms-of-service.html
+# 重要なリソースは明示的に許可
 Allow: /favicon.svg
 
 # 画像は許可（省略可だが明示）
