@@ -10,6 +10,11 @@
       "permanent": true
     },
     {
+      "source": "/en",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
       "source": "/en/privacy",
       "destination": "/en/privacy-policy",
       "permanent": true
@@ -37,11 +42,6 @@
     {
       "source": "/en/terms",
       "destination": "/en/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/en",
-      "destination": "/en/",
       "permanent": true
     },
     {
