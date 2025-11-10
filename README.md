@@ -117,6 +117,11 @@
 - ✅ 開発者連絡先情報
 - ✅ アプリの詳細説明
 
+## 🔗 関連リンク
+
+- **公開サイト**: https://awardcert.honeymarron.com/
+
+
 ## 📄 ライセンス
 
 このプロジェクトは[0BSD License](https://choosealicense.com/licenses/0bsd/)の下で公開されています。
