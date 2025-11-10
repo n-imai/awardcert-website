@@ -117,12 +117,6 @@
 - ✅ 開発者連絡先情報
 - ✅ アプリの詳細説明
 
-## 🔗 関連リンク
-
-- **メインアプリリポジトリ**: [AwardCertApp](https://github.com/[username]/AwardCertApp)
-- **App Store**: [リンク準備中]
-- **Google Play**: [リンク準備中]
-
 ## 📄 ライセンス
 
 このプロジェクトは[0BSD License](https://choosealicense.com/licenses/0bsd/)の下で公開されています。
