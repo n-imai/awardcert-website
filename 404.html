@@ -1,19 +1,85 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ページが見つかりません - 表彰状クリエイター</title>
     <meta name="robots" content="noindex, nofollow, noarchive">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-</head>
-<body>
-    <main class="container" style="padding: 80px 20px; text-align: center;">
-        <h1 style="font-size: 2rem; margin-bottom: 16px;">404 - ページが見つかりません</h1>
-        <p style="margin-bottom: 24px;">お探しのページは移動または削除された可能性があります。</p>
-        <a href="/" class="btn btn-primary">トップへ戻る</a>
-    </main>
-</body>
-</html>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1><a href="/">🏆 表彰状クリエイター</a></h1>
+                </div>
+                <div class="nav-links">
+                    <a href="/#features">機能</a>
+                    <a href="/#download">ダウンロード</a>
+                    <a href="/privacy-policy">プライバシーポリシー</a>
+                    <a href="/terms-of-service">利用規約</a>
+                    <a href="/contact">お問い合わせ</a>
+                    <a href="/en/" aria-label="Switch to English">EN</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container"
+        style="min-height: 60vh; display: flex; align-items: center; justify-content: center; padding: 4rem 1rem;">
+        <div
+            style="background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding: 4rem; border-radius: var(--radius-xl); box-shadow: var(--shadow-xl); text-align: center; border: 1px solid rgba(255, 255, 255, 0.5); max-width: 600px; width: 100%;">
+            <div style="font-size: 5rem; margin-bottom: 1rem;">😢</div>
+            <h1
+                style="font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; background: var(--gradient-primary); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: var(--primary-color);">
+                404 Not Found</h1>
+            <p style="color: var(--text-muted); margin-bottom: 2.5rem; font-size: 1.1rem; line-height: 1.6;">
+                お探しのページは移動または削除された可能性があります。<br>
+                URLをご確認いただくか、トップページへお戻りください。
+            </p>
+            <a href="/" class="btn btn-primary">トップへ戻る</a>
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>表彰状クリエイター</h3>
+                    <p>誰でも簡単に、美しい表彰状を作成できるアプリ。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>リンク</h4>
+                    <ul>
+                        <li><a href="/">ホーム</a></li>
+                        <li><a href="/privacy-policy">プライバシーポリシー</a></li>
+                        <li><a href="/terms-of-service">利用規約</a></li>
+                        <li><a href="/contact">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>開発者</h4>
+                    <p>honeymarron</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 honeymarron. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
