@@ -61,23 +61,30 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "ContactPage",
-        "@id": "https://awardcert.honeymarron.com/contact#webpage",
-        "name": "お問い合わせ - 表彰状クリエイター",
-        "url": "https://awardcert.honeymarron.com/contact",
-        "description": "表彰状クリエイターアプリに関するお問い合わせ",
-        "inLanguage": "ja",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "表彰状クリエイター",
-            "url": "https://awardcert.honeymarron.com/"
-        },
-        "mainEntity": {
-            "@type": "ContactPoint",
-            "contactType": "customer service",
-            "url": "https://awardcert.honeymarron.com/contact",
-            "availableLanguage": "ja"
-        }
+        "@graph": [
+            {
+                "@type": "ContactPage",
+                "@id": "https://awardcert.honeymarron.com/contact#webpage",
+                "name": "お問い合わせ - 表彰状クリエイター",
+                "url": "https://awardcert.honeymarron.com/contact",
+                "description": "表彰状クリエイターアプリに関するお問い合わせ",
+                "inLanguage": "ja",
+                "isPartOf": { "@id": "https://awardcert.honeymarron.com/#website" },
+                "mainEntity": {
+                    "@type": "ContactPoint",
+                    "contactType": "customer service",
+                    "url": "https://awardcert.honeymarron.com/contact",
+                    "availableLanguage": "ja"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://awardcert.honeymarron.com/" },
+                    { "@type": "ListItem", "position": 2, "name": "お問い合わせ" }
+                ]
+            }
+        ]
     }
     </script>
 </head>
@@ -88,7 +95,7 @@
         <nav class="nav">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <h1><a href="/">🏆 表彰状クリエイター</a></h1>
+                    <div class="nav-logo-text"><a href="/">🏆 表彰状クリエイター</a></div>
                 </div>
                 <button class="mobile-menu-btn" aria-label="メニューを開く">
                     <span></span>
@@ -203,9 +210,9 @@
                     <h4>リンク</h4>
                     <ul>
                         <li><a href="/">ホーム</a></li>
-                        <li><a href="/privacy-policy.html">プライバシーポリシー</a></li>
-                        <li><a href="/terms-of-service.html">利用規約</a></li>
-                        <li><a href="/contact.html">お問い合わせ</a></li>
+                        <li><a href="/privacy-policy">プライバシーポリシー</a></li>
+                        <li><a href="/terms-of-service">利用規約</a></li>
+                        <li><a href="/contact">お問い合わせ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

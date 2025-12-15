@@ -21,6 +21,13 @@
     <meta property="og:site_name" content="Award Certificate Creator">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy Policy - Award Certificate Creator">
+    <meta name="twitter:description" content="Privacy policy of the Award Certificate Creator app.">
+    <meta name="twitter:image" content="https://awardcert.honeymarron.com/images/ogp-main-1200x630.png">
+    <meta name="twitter:site" content="@honeymarron">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,16 +49,27 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://awardcert.honeymarron.com/en/privacy-policy#webpage",
-        "name": "Privacy Policy - Award Certificate Creator",
-        "url": "https://awardcert.honeymarron.com/en/privacy-policy",
-        "description": "Privacy policy of the Award Certificate Creator app.",
-        "inLanguage": "en",
-        "isPartOf": {"@type": "WebSite", "name": "Award Certificate Creator", "url": "https://awardcert.honeymarron.com/"},
-        "datePublished": "2025-07-05",
-        "dateModified": "2025-07-05",
-        "mainEntity": {"@type": "PrivacyPolicy", "name": "Privacy Policy", "url": "https://awardcert.honeymarron.com/en/privacy-policy"}
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": "https://awardcert.honeymarron.com/en/privacy-policy#webpage",
+                "name": "Privacy Policy - Award Certificate Creator",
+                "url": "https://awardcert.honeymarron.com/en/privacy-policy",
+                "description": "Privacy policy of the Award Certificate Creator app.",
+                "inLanguage": "en",
+                "isPartOf": { "@id": "https://awardcert.honeymarron.com/#website" },
+                "datePublished": "2025-07-05",
+                "dateModified": "2025-12-15",
+                "mainEntity": { "@type": "PrivacyPolicy", "name": "Privacy Policy", "url": "https://awardcert.honeymarron.com/en/privacy-policy" }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://awardcert.honeymarron.com/en/" },
+                    { "@type": "ListItem", "position": 2, "name": "Privacy Policy" }
+                ]
+            }
+        ]
     }
     </script>
 </head>
@@ -61,7 +79,7 @@
         <nav class="nav">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <h1><a href="/en/">🏆 Award Certificate Creator</a></h1>
+                    <div class="nav-logo-text"><a href="/en/">🏆 Award Certificate Creator</a></div>
                 </div>
                 <button class="mobile-menu-btn" aria-label="Toggle menu">
                     <span></span>

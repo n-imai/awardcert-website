@@ -65,24 +65,31 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://awardcert.honeymarron.com/terms-of-service#webpage",
-        "name": "利用規約 - 表彰状クリエイター",
-        "url": "https://awardcert.honeymarron.com/terms-of-service",
-        "description": "表彰状クリエイターアプリの利用規約です。アプリをご利用いただく前に必ずお読みください。",
-        "inLanguage": "ja",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "表彰状クリエイター",
-            "url": "https://awardcert.honeymarron.com/"
-        },
-        "datePublished": "2025-07-05",
-        "dateModified": "2025-07-05",
-        "mainEntity": {
-            "@type": "TermsOfService",
-            "name": "表彰状クリエイター 利用規約",
-            "url": "https://awardcert.honeymarron.com/terms-of-service"
-        }
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": "https://awardcert.honeymarron.com/terms-of-service#webpage",
+                "name": "利用規約 - 表彰状クリエイター",
+                "url": "https://awardcert.honeymarron.com/terms-of-service",
+                "description": "表彰状クリエイターアプリの利用規約です。アプリをご利用いただく前に必ずお読みください。",
+                "inLanguage": "ja",
+                "isPartOf": { "@id": "https://awardcert.honeymarron.com/#website" },
+                "datePublished": "2025-07-05",
+                "dateModified": "2025-12-15",
+                "mainEntity": {
+                    "@type": "TermsOfService",
+                    "name": "表彰状クリエイター 利用規約",
+                    "url": "https://awardcert.honeymarron.com/terms-of-service"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://awardcert.honeymarron.com/" },
+                    { "@type": "ListItem", "position": 2, "name": "利用規約" }
+                ]
+            }
+        ]
     }
     </script>
 </head>
@@ -92,7 +99,7 @@
         <nav class="nav">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <h1><a href="/">🏆 表彰状クリエイター</a></h1>
+                    <div class="nav-logo-text"><a href="/">🏆 表彰状クリエイター</a></div>
                 </div>
                 <button class="mobile-menu-btn" aria-label="メニューを開く">
                     <span></span>
@@ -186,7 +193,7 @@
 
                 <section class="terms-section">
                     <h2>第9条（プライバシー）</h2>
-                    <p>お客様の個人情報の取り扱いについては、別途定める<a href="/privacy-policy.html">プライバシーポリシー</a>をご確認ください。</p>
+                    <p>お客様の個人情報の取り扱いについては、別途定める<a href="/privacy-policy">プライバシーポリシー</a>をご確認ください。</p>
                 </section>
 
                 <section class="terms-section">
@@ -202,7 +209,7 @@
 
                 <section class="terms-section">
                     <h2>第12条（お問い合わせ）</h2>
-                    <p>本規約に関するお問い合わせは、<a href="/contact.html">お問い合わせページ</a>からご連絡ください。</p>
+                    <p>本規約に関するお問い合わせは、<a href="/contact">お問い合わせページ</a>からご連絡ください。</p>
                 </section>
             </div>
 
@@ -223,9 +230,9 @@
                     <h4>リンク</h4>
                     <ul>
                         <li><a href="/">ホーム</a></li>
-                        <li><a href="/privacy-policy.html">プライバシーポリシー</a></li>
-                        <li><a href="/terms-of-service.html">利用規約</a></li>
-                        <li><a href="/contact.html">お問い合わせ</a></li>
+                        <li><a href="/privacy-policy">プライバシーポリシー</a></li>
+                        <li><a href="/terms-of-service">利用規約</a></li>
+                        <li><a href="/contact">お問い合わせ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
