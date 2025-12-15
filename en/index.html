@@ -37,6 +37,11 @@
     <meta name="twitter:site" content="@honeymarron">
     <meta name="twitter:creator" content="@honeymarron">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/styles.css">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
@@ -88,7 +93,7 @@
                 "@id": "https://awardcert.honeymarron.com/#app",
                 "name": "Award Certificate Creator",
                 "applicationCategory": "BusinessApplication",
-                "operatingSystem": ["iOS", "Android"],
+                "operatingSystem": "iOS",
                 "description": "Create beautiful award certificates easily with our mobile app.",
                 "url": "https://awardcert.honeymarron.com/en/",
                 "author": { "@id": "https://awardcert.honeymarron.com/#organization" },
@@ -105,7 +110,47 @@
                 "inLanguage": "en",
                 "isPartOf": { "@id": "https://awardcert.honeymarron.com/#website" },
                 "datePublished": "2025-07-05",
-                "dateModified": "2025-08-16"
+                "dateModified": "2025-12-15"
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://awardcert.honeymarron.com/en/#faq",
+                "isPartOf": { "@id": "https://awardcert.honeymarron.com/en/#webpage" },
+                "inLanguage": "en",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Is Award Certificate Creator free to use?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, all basic features are completely free. Choose from a variety of templates and create beautiful award certificates."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Does it work offline?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Once downloaded, you can create certificates without an internet connection."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What occasions is it suitable for?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Perfect for school events, company awards, club activities, family appreciation, event souvenirs, and more."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What types of templates are available?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We offer various designs including gold, rainbow, and floral certificates. Choose the one that fits your occasion."
+                        }
+                    }
+                ]
             }
         ]
     }
@@ -127,9 +172,8 @@
                 </button>
                 <div class="nav-links">
                     <a href="/en/#features">Features</a>
+                    <a href="/en/#faq">FAQ</a>
                     <a href="/en/#download">Download</a>
-                    <a href="/en/privacy-policy">Privacy Policy</a>
-                    <a href="/en/terms-of-service">Terms</a>
                     <a href="/en/contact">Contact</a>
                     <a href="/" aria-label="Switch to Japanese">日本語</a>
                 </div>
@@ -203,6 +247,31 @@
                         <div class="feature-icon">🌐</div>
                         <h3>Vertical & Horizontal</h3>
                         <p>Layouts optimized for each template.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3 class="faq-question">Is Award Certificate Creator free to use?</h3>
+                        <p class="faq-answer">Yes, all basic features are completely free. Choose from a variety of templates and create beautiful award certificates.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Does it work offline?</h3>
+                        <p class="faq-answer">Once downloaded, you can create certificates without an internet connection.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">What occasions is it suitable for?</h3>
+                        <p class="faq-answer">Perfect for school events, company awards, club activities, family appreciation, event souvenirs, and more.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">What types of templates are available?</h3>
+                        <p class="faq-answer">We offer various designs including gold, rainbow, and floral certificates. Choose the one that fits your occasion.</p>
                     </div>
                 </div>
             </div>
