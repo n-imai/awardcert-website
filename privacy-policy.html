@@ -61,24 +61,31 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://awardcert.honeymarron.com/privacy-policy#webpage",
-        "name": "プライバシーポリシー - 表彰状クリエイター",
-        "url": "https://awardcert.honeymarron.com/privacy-policy",
-        "description": "表彰状クリエイターアプリのプライバシーポリシー",
-        "inLanguage": "ja",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "表彰状クリエイター",
-            "url": "https://awardcert.honeymarron.com/"
-        },
-        "datePublished": "2025-07-05",
-        "dateModified": "2025-07-05",
-        "mainEntity": {
-            "@type": "PrivacyPolicy",
-            "name": "表彰状クリエイター プライバシーポリシー",
-            "url": "https://awardcert.honeymarron.com/privacy-policy"
-        }
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": "https://awardcert.honeymarron.com/privacy-policy#webpage",
+                "name": "プライバシーポリシー - 表彰状クリエイター",
+                "url": "https://awardcert.honeymarron.com/privacy-policy",
+                "description": "表彰状クリエイターアプリのプライバシーポリシー",
+                "inLanguage": "ja",
+                "isPartOf": { "@id": "https://awardcert.honeymarron.com/#website" },
+                "datePublished": "2025-07-05",
+                "dateModified": "2025-12-15",
+                "mainEntity": {
+                    "@type": "PrivacyPolicy",
+                    "name": "表彰状クリエイター プライバシーポリシー",
+                    "url": "https://awardcert.honeymarron.com/privacy-policy"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://awardcert.honeymarron.com/" },
+                    { "@type": "ListItem", "position": 2, "name": "プライバシーポリシー" }
+                ]
+            }
+        ]
     }
     </script>
 </head>
@@ -89,7 +96,7 @@
         <nav class="nav">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <h1><a href="/">🏆 表彰状クリエイター</a></h1>
+                    <div class="nav-logo-text"><a href="/">🏆 表彰状クリエイター</a></div>
                 </div>
                 <button class="mobile-menu-btn" aria-label="メニューを開く">
                     <span></span>
@@ -229,7 +236,7 @@
 
                 <section class="privacy-section">
                     <h2>10. お問い合わせ</h2>
-                    <p>本プライバシーポリシーに関するご質問は、<a href="/contact.html">お問い合わせページ</a>からお願いいたします。</p>
+                    <p>本プライバシーポリシーに関するご質問は、<a href="/contact">お問い合わせページ</a>からお願いいたします。</p>
                 </section>
             </div>
 
@@ -251,9 +258,9 @@
                     <h4>リンク</h4>
                     <ul>
                         <li><a href="/">ホーム</a></li>
-                        <li><a href="/privacy-policy.html">プライバシーポリシー</a></li>
-                        <li><a href="/terms-of-service.html">利用規約</a></li>
-                        <li><a href="/contact.html">お問い合わせ</a></li>
+                        <li><a href="/privacy-policy">プライバシーポリシー</a></li>
+                        <li><a href="/terms-of-service">利用規約</a></li>
+                        <li><a href="/contact">お問い合わせ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
