@@ -57,7 +57,7 @@
     --radius-lg: 20px;
     --radius-xl: 32px;
 
-    /* Compatibility for other pages */
+    /* Compatibility: Legacy variables used by privacy-policy, terms-of-service, contact pages */
     --background-primary: var(--cream);
     --background-secondary: var(--ivory);
     --background-tertiary: var(--cream-dark);
@@ -252,7 +252,7 @@ img {
     pointer-events: none;
 }
 
-/* Gold corner ornaments */
+/* Gold corner ornament (top-left only) */
 .hero::after {
     content: '';
     position: absolute;
@@ -585,7 +585,7 @@ img {
 }
 
 /* ===================================
-   FAQ Section (New for SEO)
+   FAQ Section
    =================================== */
 .faq {
     padding: 7rem 0;
