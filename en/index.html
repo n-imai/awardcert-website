@@ -43,6 +43,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="theme-color" content="#ffffff">
@@ -102,7 +103,7 @@
                 "author": { "@id": "https://awardcert.honeymarron.com/#organization" },
                 "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY", "availability": "https://schema.org/InStock" },
                 "featureList": ["Rich templates", "Easy customization", "History management", "Vertical/Horizontal layout"],
-                "screenshot": "https://awardcert.honeymarron.com/images/responsive/ios-screenshot-1-home-1024w.png"
+                "screenshot": "https://awardcert.honeymarron.com/images/screenshots/en/01_home.png"
             },
             {
                 "@type": "WebPage",
@@ -207,17 +208,8 @@
                 <div class="hero-image">
                     <div class="phone-mockup">
                         <picture>
-                            <source srcset="/images/responsive/ios-screenshot-1-home-320w.webp 320w,
-                                        /images/responsive/ios-screenshot-1-home-768w.webp 768w,
-                                        /images/responsive/ios-screenshot-1-home-1024w.webp 1024w,
-                                        /images/responsive/ios-screenshot-1-home-1290w.webp 1290w"
-                                sizes="(max-width: 768px) 280px, (max-width: 1024px) 350px, 400px" type="image/webp">
-                            <img srcset="/images/responsive/ios-screenshot-1-home-320w.png 320w,
-                                        /images/responsive/ios-screenshot-1-home-768w.png 768w,
-                                        /images/responsive/ios-screenshot-1-home-1024w.png 1024w,
-                                        /images/responsive/ios-screenshot-1-home-1290w.png 1290w"
-                                sizes="(max-width: 768px) 280px, (max-width: 1024px) 350px, 400px"
-                                src="/images/responsive/ios-screenshot-1-home-768w.png" width="768" height="1669"
+                            <source srcset="/images/screenshots/en/01_home.webp" type="image/webp">
+                            <img src="/images/screenshots/en/01_home-600w.png" width="600" height="1303"
                                 fetchpriority="high" decoding="async" alt="Home screen of the app"
                                 class="app-screenshot">
                         </picture>
@@ -251,6 +243,63 @@
                         <h3>Vertical & Horizontal</h3>
                         <p>Layouts optimized for each template.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshot Gallery -->
+        <section id="screenshots" class="screenshots">
+            <div class="container">
+                <h2 class="section-title">App Screenshots</h2>
+                <div class="swiper screenshot-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide screenshot-item">
+                            <div class="screenshot-phone">
+                                <picture>
+                                    <source srcset="/images/screenshots/en/01_home.webp" type="image/webp">
+                                    <img src="/images/screenshots/en/01_home-600w.png" alt="Home screen" loading="lazy" width="200" height="434">
+                                </picture>
+                            </div>
+                            <p class="screenshot-label">Home</p>
+                        </div>
+                        <div class="swiper-slide screenshot-item">
+                            <div class="screenshot-phone">
+                                <picture>
+                                    <source srcset="/images/screenshots/en/02_template.webp" type="image/webp">
+                                    <img src="/images/screenshots/en/02_template-600w.png" alt="Template selection screen" loading="lazy" width="200" height="434">
+                                </picture>
+                            </div>
+                            <p class="screenshot-label">Templates</p>
+                        </div>
+                        <div class="swiper-slide screenshot-item">
+                            <div class="screenshot-phone">
+                                <picture>
+                                    <source srcset="/images/screenshots/en/03_input.webp" type="image/webp">
+                                    <img src="/images/screenshots/en/03_input-600w.png" alt="Information input screen" loading="lazy" width="200" height="434">
+                                </picture>
+                            </div>
+                            <p class="screenshot-label">Input</p>
+                        </div>
+                        <div class="swiper-slide screenshot-item">
+                            <div class="screenshot-phone">
+                                <picture>
+                                    <source srcset="/images/screenshots/en/04_preview.webp" type="image/webp">
+                                    <img src="/images/screenshots/en/04_preview-600w.png" alt="Preview screen" loading="lazy" width="200" height="434">
+                                </picture>
+                            </div>
+                            <p class="screenshot-label">Preview</p>
+                        </div>
+                        <div class="swiper-slide screenshot-item">
+                            <div class="screenshot-phone">
+                                <picture>
+                                    <source srcset="/images/screenshots/en/05_myawards.webp" type="image/webp">
+                                    <img src="/images/screenshots/en/05_myawards-600w.png" alt="My Awards list screen" loading="lazy" width="200" height="434">
+                                </picture>
+                            </div>
+                            <p class="screenshot-label">My Awards</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -355,6 +404,22 @@
         </div>
     </footer>
     <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const screenshotSwiper = new Swiper('.screenshot-swiper', {
+            slidesPerView: 1.3,
+            centeredSlides: true,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                640: { slidesPerView: 2.5, centeredSlides: false },
+                1024: { slidesPerView: 5, centeredSlides: false, spaceBetween: 24 }
+            }
+        });
+    </script>
 </body>
 
 </html>
