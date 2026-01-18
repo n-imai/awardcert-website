@@ -9,7 +9,7 @@ Disallow: /README.md
 Disallow: /vercel.json
 
 # 重要なリソースは明示的に許可
-Allow: /favicon.svg
+Allow: /favicon.png
 
 # 画像は許可（省略可だが明示）
 Allow: /images/
