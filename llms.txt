@@ -1,0 +1,32 @@
+# 表彰状クリエイター (Award Certificate Creator)
+
+> 美しい表彰状を簡単に作成できる無料iOSアプリ
+
+## Overview
+
+表彰状クリエイターは、iPhone / iPad 向けの無料アプリです。5種類のテンプレートから選んで、名前やメッセージを入力するだけで本格的な表彰状を作成できます。日本語・英語に対応しています。
+
+## Features
+
+- 5種類のテンプレート（金の表彰状、虹の表彰状、花の表彰状、卒業証書、バースデーカード）
+- 縦書き・横書き対応
+- 下書き自動保存
+- 履歴管理（マイ表彰状）
+- BGMプレビュー
+- 高品質PNG出力
+- SNSシェア
+- 多言語対応（日本語・英語）
+
+## Links
+
+- App Store: https://apps.apple.com/app/id6748368413
+- Website (日本語): https://awardcert.honeymarron.com/
+- Website (English): https://awardcert.honeymarron.com/en/
+- Privacy Policy: https://awardcert.honeymarron.com/privacy-policy
+- Terms of Service: https://awardcert.honeymarron.com/terms-of-service
+- Contact: https://awardcert.honeymarron.com/contact
+
+## Developer
+
+honeymarron
+https://honeymarron.com/
