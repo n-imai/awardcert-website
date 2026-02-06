@@ -1,7 +1,7 @@
 # Award Certificate Creator (表彰状クリエイター)
 
-> A free iOS app for creating beautiful award certificates. Choose from 5 elegant templates, enter names and messages, and generate professional certificates in seconds. Supports Japanese and English.
-> 美しい表彰状を簡単に作成できる無料iOSアプリ。5種類のテンプレートから選んで、名前やメッセージを入力するだけで本格的な表彰状が完成。日本語・英語対応。
+> A free iOS app for creating beautiful award certificates. Choose from 6 elegant templates, enter names and messages, and generate professional certificates in seconds. Supports Japanese and English.
+> 美しい表彰状を簡単に作成できる無料iOSアプリ。6種類のテンプレートから選んで、名前やメッセージを入力するだけで本格的な表彰状が完成。日本語・英語対応。
 
 ## About
 
