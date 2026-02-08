@@ -15,7 +15,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 # ローカルサーバー起動
 python3 server.py
-# → http://localhost:8000
+# → http://localhost:8080
 
 # デプロイ (mainブランチへのpushで自動デプロイ)
 git push origin main
@@ -26,13 +26,15 @@ git push origin main
 ### ファイル構成
 - ルート (`/`) - 日本語ページ
 - `/en/` - 英語ページ (同一構造)
-- `styles.css` - メインCSS (Gold & Cream テーマ)
+- `styles.css` - メインCSS (Dreamy Modern テーマ)
 - `*-styles.css` - ページ専用スタイル (privacy, terms, contact)
-- `script.js` - モバイルメニュー制��
+- `script.js` - モバイルメニュー制御 + スクロールリビールアニメーション
 
 ### Design System (styles.css)
-- **カラー**: Gold (`#C9A962`) & Cream (`#FFFEF7`) テーマ
-- **フォント**: Cormorant Garamond (見出し), DM Sans (本文), Noto Serif/Sans JP (日本語)
+- **カラー**: Lavender (`#C8B6FF`) × Soft Pink (`#FFB8D0`) × Mint (`#B8F0D8`) テーマ
+- **フォント**: Quicksand (見出し), Nunito (本文), Noto Sans JP (日本語)
+- **レイアウト**: Bento grid (Features), ガラスモーフィズムカード
+- **アニメーション**: スクロールリビール (IntersectionObserver), スパークル, ブロブ浮遊, CTA脈動
 - **互換性変数**: レガシーページ用に `--primary-color`, `--gradient-primary` 等をエイリアス定義
 
 ### SEO
