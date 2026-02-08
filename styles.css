@@ -505,10 +505,10 @@ img {
 .phone-mockup {
     position: relative;
     z-index: 2;
-    border-radius: 36px;
+    border-radius: 20px;
     background: white;
     padding: 10px;
-    max-width: 300px;
+    max-width: 500px;
     box-shadow: var(--shadow-lg), 0 0 0 1px rgba(200, 182, 255, 0.15);
     transition: transform 0.5s ease;
 }
@@ -531,7 +531,7 @@ img {
 .app-screenshot {
     width: 100%;
     height: auto;
-    border-radius: 28px;
+    border-radius: 12px;
     display: block;
 }
 
@@ -1172,7 +1172,7 @@ img {
     }
 
     .phone-mockup {
-        max-width: 240px;
+        max-width: 360px;
     }
 
     /* Hide some decorations on mobile */
